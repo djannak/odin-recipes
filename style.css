@@ -1,19 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display:ital@0;1&family=Danfo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     box-sizing: border-box;
-    font-family: Garamond, 'Times New Roman', Times, serif;
+    font-family: Poppins, sans-serif;
 }
 
 .h1,.h2{
     border-radius: 10px;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-color: black;
     color: white;
 }
 
 .h1 {
     border-color: black;
-    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;
 }
 
 img {
@@ -28,40 +30,49 @@ img {
 }
 
 .mainbody {
-        margin: 50px 50px 80px 50px;
-        padding: 25px;
-        border-style: solid;
-        border-radius: 10px;
-        border-color: black;
-        border-width: 5px;
-        background-color: black;
-        color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 50px 50px 80px 50px;
+    padding: 25px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 5px;
+    background-color: black;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;
+}
+
+.mainBodyText{
+    font-size: 1.5em;
+    padding: 0em 2em;
+    margin-bottom: 30px
+    text-align: center;
 }
 
 .h2 {
     margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2.5em;
     background-color: white;
     color: black;
 }
 
-.ulist {
+.recipeButtons {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    flex: 1;
-    background-color: white;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    font-weight: bold;
-    list-style-type: none;
+.recipeButton {
+    font-size: 1.5em;
+    padding: 15px;
+    width: 50%;
+    border-radius: 5px;
 }
 
 .menu {

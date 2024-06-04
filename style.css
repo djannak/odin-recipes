@@ -15,6 +15,7 @@
 
 .h1 {
     border-color: black;
+    font-weight: bold;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;
 }
 
@@ -26,7 +27,7 @@ img {
 
 .center {
         text-align: center;
-        font-size: 7px;
+        font-size: 15px;
 }
 
 .mainbody {
@@ -36,7 +37,7 @@ img {
     margin: 50px 50px 80px 50px;
     padding: 25px;
     border-style: solid;
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: black;
     border-width: 5px;
     background-color: black;
@@ -47,7 +48,7 @@ img {
 .mainBodyText{
     font-size: 1.5em;
     padding: 0em 2em;
-    margin-bottom: 30px
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -57,6 +58,7 @@ img {
     font-size: 2.5em;
     background-color: white;
     color: black;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 5px, rgba(255, 255, 255, 0.3) 0px 10px, #ffffff33 0px 15px, rgba(255, 255, 255, 0.1) 0px 20px, rgba(255, 255, 255, 0.05) 0px 25px;
 }
 
 .recipeButtons {
@@ -70,9 +72,16 @@ img {
 
 .recipeButton {
     font-size: 1.5em;
+    border: none;
     padding: 15px;
-    width: 50%;
+    width: 60%;
     border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+.recipeButton:hover {
+    border: none;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 5px, rgba(255, 255, 255, 0.3) 0px 10px, #ffffff33 0px 15px, rgba(255, 255, 255, 0.1) 0px 20px, rgba(255, 255, 255, 0.05) 0px 25px;
 }
 
 .menu {
